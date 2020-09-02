@@ -1,6 +1,16 @@
+/* #00A5EC - med blue
+#54D9FC - light blue
+#045C8D - dark blue 
+#decbb7 - Almond
+#f7f0f5 - White*/
+
 header {
-    background-image: url(../imgs/header.jpg);
-    background-size: cover;
+    background-image: url(../imgs/InTAgent_Social_4_Facebook.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
 }
 
 .small-container {
@@ -9,13 +19,15 @@ header {
 }
 
 .overlay {
-    background-color: rgba(0, 0, 0, .51);
+    /* background-color: rgba(0, 0, 0, .51); */
+    background-color: rgba(4, 92, 141, .51);
     width: 100%;
     height: 100%;
 }
 
 .violet-overlay {
-    background-color: rgba(189, 140, 191, .51);
+    /* background-color: rgba(189, 140, 191, .51); */
+    background-color: rgba(84, 217, 252, .51);
     width: 100%;
     height: 100%;
     padding: 70px 0;
@@ -61,6 +73,10 @@ nav.navbar {
     width: 100%;
     z-index: 1000;
     font-family: 'Open Sans', sans-serif;
+}
+
+nav img {
+    width: 200px;
 }
 
 nav.navbar a, nav.navbar ul li a {
