@@ -9,12 +9,14 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
     object-fit: cover;
-    width: 100%;
+    width: 100vw;
     height: auto;
+    margin: 0 auto;
 }
 
+
 .small-container {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -29,7 +31,6 @@ header {
     /* background-color: rgba(189, 140, 191, .51); */
     background-color: rgba(84, 217, 252, .51);
     width: 100%;
-    height: 100%;
     padding: 70px 0;
 }
 
@@ -65,7 +66,7 @@ body {
 
 /* navbar */
 
-nav.navbar {
+/* nav.navbar {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -73,13 +74,14 @@ nav.navbar {
     width: 100%;
     z-index: 1000;
     font-family: 'Open Sans', sans-serif;
-}
+} */
 
 header img {
     width: 200px;
+    border-radius: 50%;
 }
 
-.navbar-nav {
+/* .navbar-nav {
     display: flex;
     flex-direction: row;
 
@@ -95,9 +97,9 @@ nav.navbar ul li {
 
 nav.navbar .search-container {
     position: relative;
-}
+} */
 
-nav.navbar form {
+/* nav.navbar form {
     padding: 5px;
     background-color: #f7f0f5;
     position: absolute;
@@ -110,7 +112,7 @@ nav.navbar form input {
     border: 1px solid #b7b5b5;
     background-color: #e6e3e3;
     width: 100%;
-}
+} */
 
 /* header */
 
@@ -130,6 +132,12 @@ header .container > div {
     text-align: center;
 }
 
+.header-text{
+    font-size: 20px;
+    padding-top: 5%;
+    line-height: 1.8;
+}
+
 header .container > div h1 {
     font-size: 90px;
     padding-bottom: 5%;
@@ -141,13 +149,14 @@ header button {
     border: 1px solid #f7f0f5;
     border-radius: 50px;
     padding: 0;
-    margin: 40px auto;
+    margin: 60px auto;
 }
 
 header button a {
     padding: 10px 40px;
     display: block;
     color: #f7f0f5;
+    
 }
 
 header button:hover {
@@ -239,7 +248,7 @@ header button:hover a {
 
 .about-us .item:nth-of-type(3) {
     position: relative;
-    top: 162px;
+    top: 275px;
     left: -45px;
 }
 
@@ -259,7 +268,7 @@ header button:hover a {
     width: 100px;
     height: 200px;
     position: absolute;
-    background-color: #54D9FC;
+    background-color: #00A5EC;
     top: 140px;
     z-index: -5;
 }
@@ -268,7 +277,7 @@ header button:hover a {
     width: 100px;
     height: 200px;
     position: absolute;
-    background-color: #54D9FC;
+    background-color: #00A5EC;
     bottom: 58px;
     right: 34px;
     z-index: -5;
@@ -593,7 +602,7 @@ footer .copyright p {
     
     /* navbar */
     
-    .navbar ul {
+    /* .navbar ul {
         background-color: rgba(84, 217, 252, .85);
     }
     .navbar ul li {
@@ -602,7 +611,7 @@ footer .copyright p {
     nav.navbar form {
         width: 100%;
         position: static;
-    }
+    } */
     
     /* about */
     
