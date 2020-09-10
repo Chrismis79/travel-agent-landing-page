@@ -87,20 +87,26 @@ header .container > div {
     margin: 0 auto;
     position: relative;
     text-align: center;
+    
 }
+
 
 .header-text{
     font-size: 20px;
     padding: 1%;
-    line-height: 1.8;
-    margin-bottom: 2%;
+    line-height: 1.5;
+    margin-bottom: 1%;
 }
 
 header .container > div h1 {
     font-size: 90px;
-    padding-bottom: 1%;
+    padding-bottom: 5%;
 }
-
+@media(max-width: 700px){
+    header .container > div h1 {
+        font-size: 20px;
+    }
+}
 header button {
     background-color: transparent;
     display: block;
@@ -349,9 +355,9 @@ header button:hover a {
     justify-content: space-evenly;
     align-items: center;
     margin: 2% auto;
-    
- 
 }
+
+
 .about-me-text{
     width: 20%;
     background-color: #00A5EC;
@@ -383,7 +389,19 @@ header button:hover a {
     border-radius: 5px;
 }
 
-
+@media (max-width: 700px){
+    .about-me{
+        flex-direction: column-reverse;
+    }
+    .about-me-text {
+        width: 80%;
+        margin: 2%;
+    }
+    .about-me-img{
+        width: 80%;
+        margin: 2%;
+    }
+}
 
 
 /* statistics */
@@ -495,6 +513,8 @@ footer .item p.address {
 
 .item img {
     width: 250px;
+    margin: 1%;
+    padding-bottom: 2%;
 }
 
 footer .item ul {
