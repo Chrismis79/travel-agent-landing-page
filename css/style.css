@@ -6,18 +6,20 @@
 
 header {
     background-image: url(../imgs/beach-header.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
-    width: 100vw;
-    height: auto;
-    margin: 0 auto;
-
 }
 .small-container {
     width: 100%;
     margin: 0 auto;
 }
+
+.navbar-brand {
+    width: 100%;
+}
+
+
 
 .overlay {
     /* background-color: rgba(0, 0, 0, .51); */
@@ -69,8 +71,23 @@ body {
 header img {
     width: 23%;
     border-radius: 50%;
-    padding-top: 1%;
+    align-self: center;
+   
+  
 }
+/* .header-images {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 0;
+}
+.header-images img {
+    width: 300px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px #d2cfcf, -5px -5px 10px #d2cfcf;
+    
+    
+} */
 
 header {
     position: relative;
