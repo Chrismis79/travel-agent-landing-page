@@ -5,16 +5,15 @@
 #f7f0f5 - White*/
 
 header {
-    background-image: url(../imgs/InTAgent_Social_4_Facebook.jpg);
+    background-image: url(../imgs/beach-header.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     object-fit: cover;
     width: 100vw;
     height: auto;
     margin: 0 auto;
+
 }
-
-
 .small-container {
     width: 100%;
     margin: 0 auto;
@@ -70,6 +69,7 @@ body {
 header img {
     width: 23%;
     border-radius: 50%;
+    padding-top: 1%;
 }
 
 header {
@@ -100,7 +100,7 @@ header .container > div {
 
 header .container > div h1 {
     font-size: 90px;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
 }
 @media(max-width: 700px){
     header .container > div h1 {
@@ -228,6 +228,7 @@ header button:hover a {
     bottom: 20px;
     color: #f7f0f5;
     background-color: #54D9FC;
+    right: 0px;
 }
 
 .about-us .item:last-of-type {
