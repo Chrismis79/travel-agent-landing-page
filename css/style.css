@@ -416,7 +416,7 @@ header button:hover a {
     border-radius: 5px;
 }
 
-@media (max-width: 700px){
+@media (max-width: 1050px){
     .about-me{
         flex-direction: column-reverse;
     }
@@ -458,10 +458,16 @@ header button:hover a {
     
 }
 
+@media(max-width: 900px){
+    .statistics{
+        display: none;
+    }
+}
+
 /* contact */
 
 .contact {
-    background-image: url('../imgs/contact.jpg');
+    background-image: url('../imgs/pic3.jpg');
     background-size: cover;
     
 }
@@ -505,6 +511,10 @@ header button:hover a {
     color: #f7f0f5;
     margin: 0 auto;
     display: block;
+}
+
+.captcha{
+    align-self: center;
 }
 
 
