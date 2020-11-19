@@ -74,19 +74,7 @@ header img {
     align-self: center;
     margin-bottom: 3%;
 }
-/* .header-images {
-    display: flex;
-    justify-content: space-evenly;
-    position: relative;
-    top: 0;
-}
-.header-images img {
-    width: 300px;
-    border-radius: 5%;
-    box-shadow: 5px 5px 10px #d2cfcf, -5px -5px 10px #d2cfcf;
-    
-    
-} */
+
 
 header {
     position: relative;
@@ -108,8 +96,6 @@ header .container {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    
-    
 }
 
 
@@ -218,9 +204,6 @@ header button:hover a {
     margin: 5px 0;
 }
 
-/* .about-us .item p {
-    margin-bottom: 5px;
-} */
 
 .about-us .item:first-of-type {
     left: 405px;
