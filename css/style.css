@@ -2,7 +2,8 @@
 #54D9FC - light blue
 #045C8D - dark blue 
 #decbb7 - Almond
-#f7f0f5 - White*/
+#f7f0f5 - White
+#ef9cda- Pink*/
 
 header {
     background-image: url(../imgs/island-header-img.jpg);
@@ -136,7 +137,7 @@ header button a {
 }
 
 header button:hover {
-    background-color: #54D9FC;
+    background-color: #ef9cda;
     border: 1px solid #54D9FC;
 }
 
@@ -174,9 +175,19 @@ header button:hover a {
 }
 
 .about-us .small-container > p + div button {
-    background-color: #54D9FC;
+    background-color: #ef9cda;
     border: none;
+    
+    border-radius: 50px;
 }
+.about-us .small-container > p + div button:hover{
+    background-color: transparent;
+    border: 1px solid #ef9cda;
+}
+.about-us .small-container > p + div button a:hover{
+    color: #ef9cda;
+}
+
 
 .about-us .small-container > p + div a {
     display: block;
@@ -271,6 +282,13 @@ header button:hover a {
     padding: 5px;
 }
 
+.uplift-promo{
+    margin: 3% auto;
+    box-shadow: 2px 2px 10px #5d5959;
+    width: 80%;
+    
+}
+
 /* services */
 
 .services {
@@ -360,6 +378,21 @@ header button:hover a {
     font-size: 40px;
 }
 
+.cert-list {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2%;
+}
+
+@media (max-width: 1050px){
+    .cert-list {
+        flex-direction: column;
+        align-items: center;
+        line-height: 2;
+    }
+}
+
+
 .about-me {
     display: flex;
     justify-content: space-evenly;
@@ -407,42 +440,14 @@ header button:hover a {
         flex-direction: column-reverse;
     }
     .about-me-text {
-        width: 80%;
-        margin: 2%;
+        width: 60%;
     }
-    .about-me-img{
-        width: 80%;
-        margin: 2%;
+    .about-me-img {
+        width: 40%;
     }
-}
+} 
 
 
-/* statistics */
-
-.statistics {
-    padding: 50px 0;
-    font-family: sans-serif;
-}
-
-.statistics i, .statistics p {
-    color: #54D9FC;
-}
-
-.statistics i {
-    margin-bottom: 10px;
-}
-
-.statistics h3 {
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 0;
-}
-
-.certs {
-    width: 275px;
-    height: 250px;
-    
-}
 
 @media(max-width: 900px){
     .statistics{
@@ -493,16 +498,33 @@ header button:hover a {
     height: 40px;
     padding: 0;
     line-height: 40px;
-    background-color: #54D9FC;
+    background-color: #ef9cda;
     color: #f7f0f5;
     margin: 0 auto;
     display: block;
+    border-radius: 50px;
+}
+.contact form input[type="submit"]:hover {
+    cursor: pointer;
+    border: 3px solid #ef9cda;
+    background-color: transparent;
+    font-weight: bold;
 }
 
 .captcha{
     align-self: center;
 }
 
+#signupBtn {
+    border-radius: 50px;
+    background-color: #ef9cda;
+}
+
+#signupBtn:hover {
+    border: 3px solid #ef9cda;
+    background-color: transparent;
+    cursor: pointer;
+}
 
 /* footer */
 
@@ -649,9 +671,9 @@ footer .copyright p {
         left: 164px;
         font-size: 30px;
     }
-    .agency .container > div h2 {
+    /* .agency .container > div h2 {
         display: none;
-    }
+    } */
 
 }
 
